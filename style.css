@@ -2,18 +2,20 @@ html{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 img{
-    width: 80%;
-    background:  no-repeat center/80%;;
+    width: 100%;
+    background:  no-repeat center/100%;
 
 }
 
 .inner{
-position: relative;
-width: 80%;
+position: absolute;
+width: 100%;
 
 }
 .inner-text{
     position: absolute;
-    text-align: center;
     top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
 }
