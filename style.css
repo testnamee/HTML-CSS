@@ -1,0 +1,39 @@
+*{
+    margin:auto;
+}
+body{
+    margin: auto;
+}
+/* .inner-content{
+    font-family: 'Courier New', Courier, monospace,sans-serif;
+    font-size: 1em;
+    position: relative;
+    text-align: center;
+} */
+img {
+    max-width: 100%;
+    height: auto;
+  }
+  .inner-content {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    left: 0;
+    width: 100%;
+    text-align: center;
+  }
+  .inner{
+      position: relative;
+  }
+  button{
+      size: 10%;
+  }
+  p:first-of-type{
+      color: azure;
+      font-size: 1.4rem;
+  }
+  h1{
+    font-size: 2em;
+    margin: 3em 1em;
+  }
